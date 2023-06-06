@@ -28,7 +28,9 @@ struct TableViewExample_Previews: PreviewProvider {
 struct PlayerCell: View {
     let player: Player
     var body: some View {
-        NavigationLink(destination: Text(player.name)) {
+        NavigationLink(destination:
+                        PlayerDetails(player: player)
+        ) {
             HStack {
                 Image(systemName: player.imageName)
                 VStack(alignment: .leading) {

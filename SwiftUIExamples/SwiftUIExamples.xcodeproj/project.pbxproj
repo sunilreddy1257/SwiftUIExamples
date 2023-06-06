@@ -16,6 +16,7 @@
 		104E7A4D2A2F971200795011 /* ImageExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A4C2A2F971200795011 /* ImageExamples.swift */; };
 		104E7A4F2A2F9BB800795011 /* TextFieldExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A4E2A2F9BB800795011 /* TextFieldExamples.swift */; };
 		104E7A512A2F9EB800795011 /* TableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A502A2F9EB800795011 /* TableViewExample.swift */; };
+		104E7A542A2FA5D500795011 /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A532A2FA5D500795011 /* PlayerDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		104E7A4C2A2F971200795011 /* ImageExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExamples.swift; sourceTree = "<group>"; };
 		104E7A4E2A2F9BB800795011 /* TextFieldExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExamples.swift; sourceTree = "<group>"; };
 		104E7A502A2F9EB800795011 /* TableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExample.swift; sourceTree = "<group>"; };
+		104E7A532A2FA5D500795011 /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				104E7A502A2F9EB800795011 /* TableViewExample.swift */,
+				104E7A532A2FA5D500795011 /* PlayerDetails.swift */,
 			);
 			path = TableViewExample;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				104E7A3C2A2F883800795011 /* ContentView.swift in Sources */,
+				104E7A542A2FA5D500795011 /* PlayerDetails.swift in Sources */,
 				104E7A4D2A2F971200795011 /* ImageExamples.swift in Sources */,
 				104E7A4F2A2F9BB800795011 /* TextFieldExamples.swift in Sources */,
 				104E7A4B2A2F88C700795011 /* DataManager.swift in Sources */,
