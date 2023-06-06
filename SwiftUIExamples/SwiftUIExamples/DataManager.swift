@@ -23,6 +23,14 @@ let playersData = [
 Player(name: "Sunil", headline: "Sunil", subHeadLine: "iOS Developer", imageName: "photo"),
 Player(name: "Test", headline: "Test", subHeadLine: "Mobile Developer", imageName: "photo"),
 Player(name: "iOS", headline: "iOS", subHeadLine: "Developer", imageName: "photo"),
+Player(name: "Test123", headline: "Test123", subHeadLine: "iOS Developer", imageName: "photo"),
+Player(name: "Sunil", headline: "Sunil", subHeadLine: "iOS Developer", imageName: "photo"),
+Player(name: "Test", headline: "Test", subHeadLine: "Mobile Developer", imageName: "photo"),
+Player(name: "iOS", headline: "iOS", subHeadLine: "Developer", imageName: "photo"),
+Player(name: "Test123", headline: "Test123", subHeadLine: "iOS Developer", imageName: "photo"),
+Player(name: "Sunil", headline: "Sunil", subHeadLine: "iOS Developer", imageName: "photo"),
+Player(name: "Test", headline: "Test", subHeadLine: "Mobile Developer", imageName: "photo"),
+Player(name: "iOS", headline: "iOS", subHeadLine: "Developer", imageName: "photo"),
 Player(name: "Test123", headline: "Test123", subHeadLine: "iOS Developer", imageName: "photo")
 ]
 #endif

@@ -40,6 +40,6 @@ struct PlayerCell: View {
                         .foregroundColor(.gray)
                 }
             }
-        }
+        }.navigationTitle("Player Names")
     }
 }

@@ -11,9 +11,16 @@ struct PlayerDetails: View {
     let player: Player
     var body: some View {
         VStack {
-            Image(systemName: player.imageName)
-            Text(player.name)
-            Text(player.subHeadLine)
+            VStack {
+                Image(systemName: player.imageName)
+                
+                Divider()
+                
+                Text(player.name)
+                Text(player.subHeadLine)
+            }
+            .padding()
+            .navigationBarTitle(Text(player.name), displayMode: .inline)
         }
         
 
