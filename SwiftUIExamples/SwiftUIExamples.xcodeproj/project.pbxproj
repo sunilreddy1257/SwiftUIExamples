@@ -13,6 +13,7 @@
 		104E7A412A2F883800795011 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104E7A402A2F883800795011 /* Preview Assets.xcassets */; };
 		104E7A492A2F888200795011 /* TextExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A482A2F888200795011 /* TextExample.swift */; };
 		104E7A4B2A2F88C700795011 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A4A2A2F88C700795011 /* DataManager.swift */; };
+		104E7A4D2A2F971200795011 /* ImageExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A4C2A2F971200795011 /* ImageExamples.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		104E7A402A2F883800795011 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		104E7A482A2F888200795011 /* TextExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExample.swift; sourceTree = "<group>"; };
 		104E7A4A2A2F88C700795011 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		104E7A4C2A2F971200795011 /* ImageExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExamples.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				104E7A482A2F888200795011 /* TextExample.swift */,
 				104E7A4A2A2F88C700795011 /* DataManager.swift */,
+				104E7A4C2A2F971200795011 /* ImageExamples.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				104E7A3C2A2F883800795011 /* ContentView.swift in Sources */,
+				104E7A4D2A2F971200795011 /* ImageExamples.swift in Sources */,
 				104E7A4B2A2F88C700795011 /* DataManager.swift in Sources */,
 				104E7A492A2F888200795011 /* TextExample.swift in Sources */,
 				104E7A3A2A2F883800795011 /* SwiftUIExamplesApp.swift in Sources */,
