@@ -26,9 +26,24 @@ struct DeveloperSections: Identifiable {
     var players: [Player]
 }
 
+struct Contact: Identifiable {
+    var id = UUID()
+    var name: String
+    var phonoe: String
+    var email: String
+    var address: String
+}
 
 
 #if DEBUG
+
+let contactsData = [
+    Contact(name: "TestUser1", phonoe: "9703013034", email: "test@gmail.com", address: "Bengalure"),
+    Contact(name: "testUser2", phonoe: "9703013033", email: "test1@gmail.com", address: "Hyderabad"),
+    Contact(name: "TestUser3", phonoe: "9703013032", email: "test2@gmail.com", address: "Pune"),
+    Contact(name: "TestUser4", phonoe: "9703013031", email: "test3@gmail.com", address: "Noida")
+]
+
 let playersData = [
 Player(name: "Sunil", headline: "Sunil", subHeadLine: "iOS Developer", imageName: "photo"),
 Player(name: "Test", headline: "Test", subHeadLine: "Mobile Developer", imageName: "photo"),
