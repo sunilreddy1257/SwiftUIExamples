@@ -13,25 +13,30 @@ struct TableViewSectionExample: View {
     
     var body: some View {
         
-        List(developerSections) { item in
-            Section {
-                SectionPlayerCell(players: item.players)
-                /*List(item.players) { player in
-                    Text(player.name)
-                    /*VStack(alignment: .leading) {
+        NavigationView {
+            List(developerSections) { item in
+                Section {
+                    SectionPlayerCell(players: item.players)
+                    /*List(item.players) { player in
                         Text(player.name)
-                        Text(player.subHeadLine)
+                        /*VStack(alignment: .leading) {
+                            Text(player.name)
+                            Text(player.subHeadLine)
+                        }*/
                     }*/
-                }*/
-              
-            } header: {
-                Text(item.name)
-                    .textCase(nil)
-                    .font(.system(size: 15))
-            } footer: {
-                Text("Section Footer Header")
-            }
-        }.scrollIndicators(.hidden)
+                  
+                } header: {
+                    Text(item.name)
+                        .textCase(nil)
+                        .font(.system(size: 15))
+                } footer: {
+                    Text("Section Footer Header")
+                }
+            }.scrollIndicators(.hidden)
+            .navigationTitle("iOS Positions")
+            .navigationBarTitleDisplayMode(.inline)
+        }
+       
        
     }
 }
