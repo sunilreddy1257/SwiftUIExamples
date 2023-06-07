@@ -19,7 +19,9 @@ struct SwiftUIExamplesApp: App {
             //TableViewSectionExample()
             //TabBarExample()
             //PickerExample()
-            ContactsListView()
+            //ContactsListView()
+            //SampleView()
+            ViewBuilderExample()
         }
     }
 }

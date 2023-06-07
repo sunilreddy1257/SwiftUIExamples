@@ -41,4 +41,3 @@ struct ContactRow: View {
             }
     }
 }
-
