@@ -21,7 +21,8 @@ struct SwiftUIExamplesApp: App {
             //PickerExample()
             //ContactsListView()
             //SampleView()
-            ViewBuilderExample()
+            //ViewBuilderExample()
+            EnvironmentObjectExample()
         }
     }
 }
