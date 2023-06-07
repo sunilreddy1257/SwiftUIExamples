@@ -19,6 +19,7 @@
 		104E7A542A2FA5D500795011 /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A532A2FA5D500795011 /* PlayerDetails.swift */; };
 		104E7A562A30177A00795011 /* TableViewSectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A552A30177A00795011 /* TableViewSectionExample.swift */; };
 		104E7A5A2A304E6400795011 /* TabBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A592A304E6400795011 /* TabBarExample.swift */; };
+		104E7A5D2A30529100795011 /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A5C2A30529100795011 /* PickerExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		104E7A532A2FA5D500795011 /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
 		104E7A552A30177A00795011 /* TableViewSectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionExample.swift; sourceTree = "<group>"; };
 		104E7A592A304E6400795011 /* TabBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExample.swift; sourceTree = "<group>"; };
+		104E7A5C2A30529100795011 /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		104E7A472A2F885D00795011 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				104E7A5B2A30527F00795011 /* PickerExample */,
 				104E7A582A304E5100795011 /* TabBar */,
 				104E7A522A2FA54700795011 /* TableViewExample */,
 				104E7A482A2F888200795011 /* TextExample.swift */,
@@ -121,6 +124,14 @@
 				104E7A592A304E6400795011 /* TabBarExample.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		104E7A5B2A30527F00795011 /* PickerExample */ = {
+			isa = PBXGroup;
+			children = (
+				104E7A5C2A30529100795011 /* PickerExample.swift */,
+			);
+			path = PickerExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			files = (
 				104E7A3C2A2F883800795011 /* ContentView.swift in Sources */,
 				104E7A562A30177A00795011 /* TableViewSectionExample.swift in Sources */,
+				104E7A5D2A30529100795011 /* PickerExample.swift in Sources */,
 				104E7A542A2FA5D500795011 /* PlayerDetails.swift in Sources */,
 				104E7A4D2A2F971200795011 /* ImageExamples.swift in Sources */,
 				104E7A4F2A2F9BB800795011 /* TextFieldExamples.swift in Sources */,

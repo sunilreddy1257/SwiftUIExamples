@@ -17,7 +17,8 @@ struct SwiftUIExamplesApp: App {
             //TextFieldExamples()
             //TableViewExample()
             //TableViewSectionExample()
-            TabBarExample()
+            //TabBarExample()
+            PickerExample()
         }
     }
 }
