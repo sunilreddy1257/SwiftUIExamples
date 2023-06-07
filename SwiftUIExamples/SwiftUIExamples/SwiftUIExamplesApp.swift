@@ -22,7 +22,8 @@ struct SwiftUIExamplesApp: App {
             //ContactsListView()
             //SampleView()
             //ViewBuilderExample()
-            EnvironmentObjectExample()
+            //EnvironmentObjectExample()
+            ToggleSwitchExample()
         }
     }
 }
