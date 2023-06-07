@@ -17,6 +17,7 @@
 		104E7A4F2A2F9BB800795011 /* TextFieldExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A4E2A2F9BB800795011 /* TextFieldExamples.swift */; };
 		104E7A512A2F9EB800795011 /* TableViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A502A2F9EB800795011 /* TableViewExample.swift */; };
 		104E7A542A2FA5D500795011 /* PlayerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A532A2FA5D500795011 /* PlayerDetails.swift */; };
+		104E7A562A30177A00795011 /* TableViewSectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E7A552A30177A00795011 /* TableViewSectionExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		104E7A4E2A2F9BB800795011 /* TextFieldExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExamples.swift; sourceTree = "<group>"; };
 		104E7A502A2F9EB800795011 /* TableViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExample.swift; sourceTree = "<group>"; };
 		104E7A532A2FA5D500795011 /* PlayerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetails.swift; sourceTree = "<group>"; };
+		104E7A552A30177A00795011 /* TableViewSectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +97,19 @@
 		104E7A522A2FA54700795011 /* TableViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				104E7A572A30198000795011 /* Sections */,
 				104E7A502A2F9EB800795011 /* TableViewExample.swift */,
 				104E7A532A2FA5D500795011 /* PlayerDetails.swift */,
 			);
 			path = TableViewExample;
+			sourceTree = "<group>";
+		};
+		104E7A572A30198000795011 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				104E7A552A30177A00795011 /* TableViewSectionExample.swift */,
+			);
+			path = Sections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				104E7A3C2A2F883800795011 /* ContentView.swift in Sources */,
+				104E7A562A30177A00795011 /* TableViewSectionExample.swift in Sources */,
 				104E7A542A2FA5D500795011 /* PlayerDetails.swift in Sources */,
 				104E7A4D2A2F971200795011 /* ImageExamples.swift in Sources */,
 				104E7A4F2A2F9BB800795011 /* TextFieldExamples.swift in Sources */,
